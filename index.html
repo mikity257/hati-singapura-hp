@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HATI SINGAPURA | マレー式伝統産後ケア in シンガポール</title>
+  <meta name="description" content="シンガポール在住の日本人ママへ。日本人セラピスト・牧浦美希によるHATIマレー式産後ケア。ウルッ・ムラユ、ベンクン、ジャムをご自宅出張でお届けします。" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-inner">
+      <a href="#hero" class="logo">
+        <div class="logo-text">
+          <span class="logo-sub">MALAY TRADITIONAL CARE</span>
+          <span class="logo-main">HATI SINGAPURA</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#hero" data-i18n="nav_home">トップ</a></li>
+        <li><a href="#services" data-i18n="nav_services">サービス</a></li>
+        <li><a href="#faq" data-i18n="nav_faq">よくある質問</a></li>
+        <li><a href="#contact" data-i18n="nav_contact">お問い合わせ</a></li>
+      </ul>
+      <div class="nav-right">
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <button class="lang-btn active" data-lang="ja">JP</button>
+          <span>/</span>
+          <button class="lang-btn" data-lang="en" id="lang-label">EN</button>
+        </div>
+        <button class="hamburger" aria-label="Open menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" role="dialog" aria-modal="true">
+    <button class="mobile-menu-close" aria-label="Close menu">✕</button>
+    <ul class="mobile-nav-links">
+      <li><a href="#hero" data-i18n="nav_home">トップ</a></li>
+      <li><a href="#services" data-i18n="nav_services">サービス</a></li>
+      <li><a href="#faq" data-i18n="nav_faq">よくある質問</a></li>
+      <li><a href="#contact" data-i18n="nav_contact">お問い合わせ</a></li>
+    </ul>
+    <div class="mobile-lang">
+      <button class="lang-btn mobile-lang-btn active" data-lang="ja">JP</button>
+      <button class="lang-btn mobile-lang-btn" data-lang="en">EN</button>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero">
+      <div class="hero-bg">
+        <img src="hero-bengkung.jpg" alt="マレー式ベンクン施術" class="hero-img" />
+        <div class="hero-overlay"></div>
+      </div>
+
+      <!-- Phase 1: 最初のメッセージ -->
+      <div class="hero-phase-1" id="heroPhase1">
+        <div class="hero-welcome">
+          <p class="hero-welcome-line1">出産したあなたへ</p>
+          <p class="hero-welcome-line2">おつかれさま</p>
+        </div>
+      </div>
+
+      <!-- Phase 2: 縦書きテキスト + CTA -->
+      <div class="hero-phase-2" id="heroPhase2">
+        <div class="hero-vertical-texts">
+          <div class="hero-vline">出産という大仕事を終えたあなたへ</div>
+          <div class="hero-vline">頼れる人がそばにいる</div>
+          <div class="hero-vline">心と身体をサポートするお母さんのための伝統ケア</div>
+          <div class="hero-vline">産後一ヶ月から寝てるだけで身体が整う</div>
+          <div class="hero-vline">最高の産後コンディションへ</div>
+        </div>
+        <div class="hero-phase2-cta" id="heroPhase2Cta">
+          <a href="#services" class="btn-light" data-i18n="hero_btn1">サービスを見る</a>
+        </div>
+      </div>
+
+      <div class="hero-scroll" id="heroScroll">
+        <span>scroll</span>
+        <div class="hero-scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONCEPT ===== -->
+    <section id="concept" class="concept">
+      <div class="concept-grid">
+        <div class="concept-image" data-reveal="left">
+          <img src="hero-tools.jpg" alt="マレー式産後ケアのハーブと施術道具" />
+        </div>
+        <div class="concept-text" data-reveal="right">
+          <span class="eyebrow" data-i18n="about_sub">ABOUT</span>
+          <h2 data-i18n="about_title">「心」に寄り添う<br>マレー式の知恵</h2>
+          <p data-i18n="about_p1">「Hati（ハティ）」はマレー語で「心」を意味します。HATI SINGAPURAは、シンガポールに暮らす日本人のお母さんが、出産後の大切な回復期を安心して過ごせるよう生まれたサービスです。</p>
+          <p data-i18n="about_p2">"マレー伝統 × 現代ケア × 日本人女性"をコンセプトに、マレーシアやシンガポールに古くから伝わる産後ケアの知恵—ウルッ・ムラユ（伝統マッサージ）、ベンクン（腹部バインディング）の伝統技術を、現代の日本人女性に寄り添うかたちでお届けします。</p>
+          <div class="concept-stats">
+            <div class="stat">
+              <span class="stat-num">1,500<sup>+</sup></span>
+              <span class="stat-label">施術人数</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">No.1</span>
+              <span class="stat-label">日本人セラピスト</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat">
+              <span class="stat-num">6<small>ヶ月</small></span>
+              <span class="stat-label">先まで予約殺到</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="services">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="eyebrow" data-i18n="services_sub">MENU</span>
+          <h2 data-i18n="services_title">サービス内容</h2>
+          <div class="section-line"></div>
+          <p data-i18n="services_desc">マレー伝統の技法と現代の知識を組み合わせた<br>女性のためのトータルケアメニュー</p>
+        </div>
+
+        <div class="services-grid">
+          <div class="service-card" data-reveal>
+            <div class="service-card-image">
+              <img src="images/postnatal-care.jpg" alt="HATIマレー式産褥ケア" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-en" data-i18n="svc1_name_en">HATI MALAY POSTNATAL CARE</span>
+              <h3 data-i18n="svc1_name">HATIマレー式産褥ケア</h3>
+              <p class="service-tagline" data-i18n="svc1_tagline">産後ママのための全身＆骨盤ケア</p>
+              <div class="service-detail">
+                <p data-i18n="svc1_package">《パッケージプラン》<br>５日間・７日間・１０日間</p>
+                <p class="service-meta" data-i18n="svc1_time">対象: 産後1年未満の方</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-reveal>
+            <div class="service-card-image">
+              <img src="images/oil-care.jpg" alt="HATIマレー式オイルケア" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-en" data-i18n="svc2_name_en">HATI MALAY OIL CARE</span>
+              <h3 data-i18n="svc2_name">HATIマレー式オイルケア</h3>
+              <p class="service-tagline" data-i18n="svc2_tagline">身体の不調改善＆リラクゼーション</p>
+              <div class="service-detail">
+                <p data-i18n="svc2_desc">滞ったリンパをしっかり流す。疲れたときに受けるとやみつきに。</p>
+                <p class="service-meta" data-i18n="svc2_time">全身マッサージ 60分（ヘッドマッサージ込み）</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="service-card" data-reveal>
+            <div class="service-card-image">
+              <img src="images/slimming-care.jpg" alt="HATIスリミングケア" />
+            </div>
+            <div class="service-card-body">
+              <span class="service-en" data-i18n="svc3_name_en">HATI SLIMMING CARE</span>
+              <h3 data-i18n="svc3_name">HATIスリミングケア</h3>
+              <p class="service-tagline" data-i18n="svc3_tagline">デトックス＆引き締め</p>
+              <div class="service-detail">
+                <p data-i18n="svc3_desc">足やおなかなど気になる箇所のセルライトケア。産後こそキレイになりたい方に。</p>
+                <p class="service-meta" data-i18n="svc3_time">全身マッサージ 90分（ヘッドマッサージ込み）</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <p class="services-note" data-reveal data-i18n="services_note">※ 全てのサービスはご自宅への出張対応です。シンガポール島内全域に伺います。料金はお問い合わせください。</p>
+      </div>
+    </section>
+
+    <!-- ===== VOICES ===== -->
+    <section id="voices" class="voices">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="eyebrow" data-i18n="test_sub">VOICE</span>
+          <h2 data-i18n="test_title">ご利用いただいたお母さんから</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="voices-grid">
+          <div class="voice-card" data-reveal>
+            <div class="voice-stars">★★★★★</div>
+            <div class="voice-quote">&ldquo;</div>
+            <p class="voice-text">バンディング中はもちろんですが、外しても尾てい骨の痛みが和らいでいて。明らかに痛みが軽減されてびっくりです！夫にはお腹が戻ってる！と驚かれました。とっても嬉しいです！</p>
+            <div class="voice-author">
+              <span class="voice-name">Y.K. さん</span>
+              <span class="voice-meta">7日間産褥ケアご利用</span>
+            </div>
+          </div>
+          <div class="voice-card" data-reveal>
+            <div class="voice-stars">★★★★★</div>
+            <div class="voice-quote">&ldquo;</div>
+            <p class="voice-text">施術はもちろん、みきさんといろいろお話しできたことで心もほぐせた感じがします。気がつけば家族以外で日本語で話せるのがミキさんだけで、日本人のセラピストさんがいらっしゃるのはシンガポールの産後ママにとっても大きなことだと感じました。</p>
+            <div class="voice-author">
+              <span class="voice-name">A.S. さん</span>
+              <span class="voice-meta">オイルケアご利用</span>
+            </div>
+          </div>
+          <div class="voice-card" data-reveal>
+            <div class="voice-stars">★★★★★</div>
+            <div class="voice-quote">&ldquo;</div>
+            <p class="voice-text">10日間マッサージありがとうございました！身体が楽になったし、疲れていた身体が回復しました。夫にも痩せたと驚かれて嬉しかったです。子育てについても相談させていただき安心感が凄かったです。</p>
+            <div class="voice-author">
+              <span class="voice-name">M.T. さん</span>
+              <span class="voice-meta">10日間産褥ケアご利用</span>
+            </div>
+          </div>
+          <div class="voice-card" data-reveal>
+            <div class="voice-stars">★★★★★</div>
+            <div class="voice-quote">&ldquo;</div>
+            <p class="voice-text">5日間の産褥マッサージを経て、見事5キロ近く減りました！妊娠中に13キロ太ってしまった私…旦那さんが育休中に自宅で施術を受けて体型を戻せるのであれば、こんなに嬉しい事はない。本当にありがとうございました。</p>
+            <div class="voice-author">
+              <span class="voice-name">N.O. さん</span>
+              <span class="voice-meta">5日間産褥ケアご利用</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Before / After -->
+        <div class="ba-section" data-reveal>
+          <div class="ba-header">
+            <span class="eyebrow">BEFORE / AFTER</span>
+            <h3>実際の変化をご覧ください</h3>
+          </div>
+          <div class="ba-grid">
+            <div class="ba-item">
+              <img src="images/before-after-feet.jpg" alt="産褥ケア5日間：足のむくみビフォーアフター" />
+              <p>産褥ケア　5日間</p>
+            </div>
+            <div class="ba-item">
+              <img src="images/before-after-body10.jpg" alt="産褥ケア10日間：体型ビフォーアフター" />
+              <p>産褥ケアマッサージ　10日間</p>
+            </div>
+            <div class="ba-item">
+              <img src="images/before-after-slimming.jpg" alt="スリミングケア10回：体型ビフォーアフター" />
+              <p>スリミングケア　10回</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="faq">
+      <div class="container">
+        <div class="section-header" data-reveal>
+          <span class="eyebrow">FAQ</span>
+          <h2 data-i18n="faq_title">よくあるご質問</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="faq-list" data-reveal>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q1">いつから産褥ケアを受けられますか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a1">日程調整はご出産報告をいただいてから行っています。産後の状況は変動しやすいため、ご家庭の状況を伺いながら一緒に組ませていただきます。早い方で産後1週間前後、多くの方は産後2〜3週間からのスタートが多いです。帝王切開の場合は、産後3〜4週目頃からとなります。</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q2">赤ちゃんと一緒でも大丈夫ですか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a2">もちろんです！多くの方が施術前に授乳を済ませてお受けになりますが、途中での授乳やおむつ替えもOKです。赤ちゃんがぐずった際は、寝かしつけのお手伝いもできますよ。</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q3">所要時間はどのくらいですか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a3">初日は約120分、2日目以降は約90分です。</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q4">産後どのくらいまで受けられますか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a4">おすすめは産後半年頃までですが、腰痛や骨盤まわりの不安定さが気になる場合は半年を過ぎていてもお受けいただけます。産後半年以降は、肩こりや産後太りなど別のお悩みに合わせたメニューを選ばれる方も多いです。気になることはお気軽にご相談ください。</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q5">おっぱいマッサージはありますか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a5">必要に応じてケアしています。赤ちゃんが飲みやすくなるよう乳首・乳輪を整えたり、張りを和らげたりと状態に合わせて対応します。乳腺炎の疑いがある場合は母乳外来の受診をおすすめすることがあります。</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q6">出産予定日がずれた場合はどうなりますか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a6">ご出産報告をいただいた時点で最短の日程でご案内します。キャンセルにはなりませんのでご安心ください。</div>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-q">
+              <span data-i18n="faq_q7">日本国内でも施術を受けられますか？</span>
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+            </button>
+            <div class="faq-a">
+              <div class="faq-a-inner" data-i18n="faq_a7">日本国内での施術をご希望の方には、HATI認定セラピストをご紹介しております。お気軽にお問い合わせください。</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== THERAPIST ===== -->
+    <section id="therapist" class="therapist">
+      <div class="therapist-grid">
+        <div class="therapist-image" data-reveal="left">
+          <img src="me.png" alt="牧浦美希プロフィール写真" />
+        </div>
+        <div class="therapist-text" data-reveal="right">
+          <span class="eyebrow" data-i18n="therapist_sub">THERAPIST</span>
+          <h2 data-i18n="therapist_name">牧浦 美希</h2>
+          <span class="therapist-name-en" data-i18n="therapist_name_en">Miki Makiura</span>
+          <div class="therapist-tags">
+            <span class="tag" data-i18n="therapist_tag1">日本人セラピスト</span>
+            <span class="tag" data-i18n="therapist_tag2">HATI代表</span>
+            <span class="tag" data-i18n="therapist_tag3">スクール講師</span>
+            <span class="tag" data-i18n="therapist_tag4">シンガポール人気No.1</span>
+          </div>
+          <div class="therapist-bio">
+            <p data-i18n="therapist_bio1">はじめまして、牧浦美希です。日本人として、シンガポールでHATIマレー式産後ケアセラピスト・スクール講師として活動しています。</p>
+            <p data-i18n="therapist_bio2">「産後ケアを自分のために」と思えるお母さんを一人でも増やしたい。そんな思いで活動を続けてきた結果、おかげさまで日本人人気No.1のセラピストとして多くのお母さんにご利用いただいています。</p>
+            <p data-i18n="therapist_bio3">私自身も３児の母として、産後の身体のつらさも、言葉にならない不安も体験してきました。技術はもちろん、心に寄り添ったケアで回復のお手伝いをさせていただきます。</p>
+          </div>
+          <div class="therapist-certs">
+            <div class="therapist-certs-header">
+              <img src="logo.png" alt="HATI SINGAPURA" class="therapist-certs-logo" />
+              <span class="therapist-certs-title">HATI SINGAPURA代表</span>
+            </div>
+            <ul>
+              <li data-i18n="therapist_cert1">HATIマレー式産後ボディケアセラピスト</li>
+              <li data-i18n="therapist_cert2">HATIスクール講師</li>
+              <li data-i18n="therapist_cert3">シンガポール人気No.1 日本人セラピスト</li>
+              <li data-i18n="therapist_cert4">３児の母</li>
+            </ul>
+          </div>
+          <div class="therapist-links">
+            <a href="https://www.instagram.com/malay_massage_miki/" target="_blank" rel="noopener" class="therapist-link">Instagram</a>
+            <a href="https://lin.ee/6wOgzOm" target="_blank" rel="noopener" class="therapist-link">LINE</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="contact">
+      <div class="contact-inner" data-reveal>
+        <span class="eyebrow light" data-i18n="nav_contact">CONTACT</span>
+        <h2 data-i18n="contact_title">まずはお気軽に<br>ご連絡ください</h2>
+        <p class="contact-lead" data-i18n="contact_desc">初めてのご利用でも大丈夫です。ご質問やご不安なことがあれば、何でもお気軽にお問い合わせください。日本語でお答えします。</p>
+        <a href="https://lin.ee/6wOgzOm" target="_blank" rel="noopener" class="line-btn">
+          <svg width="22" height="22" viewBox="0 0 48 48" fill="currentColor"><path d="M24 4C12.95 4 4 11.86 4 21.5c0 5.7 3.1 10.76 7.93 14.06-.35 1.3-1.28 4.7-1.47 5.42-.23.88.32 1.87 1.28 1.41 0 0 5.75-3.8 8.1-5.36.7.1 1.42.15 2.16.15C33.05 37 44 29.14 44 19.5S35.05 2 24 2z"/></svg>
+          LINE公式アカウントに問い合わせる
+        </a>
+        <div class="contact-sub">
+          <a href="https://www.instagram.com/malay_massage_miki/" target="_blank" rel="noopener" class="contact-link">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+            @malay_massage_miki
+          </a>
+          <span class="contact-sep">|</span>
+          <span class="contact-area">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            シンガポール島内全域（出張対応）
+          </span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <p data-i18n="footer_desc">シンガポール在住の日本人ママへ。<br>マレー伝統の産後ケアで、回復の時間を大切に。</p>
+        </div>
+        <div class="footer-nav">
+          <h5 data-i18n="footer_nav_title">ナビゲーション</h5>
+          <ul>
+            <li><a href="#hero" data-i18n="nav_home">トップ</a></li>
+            <li><a href="#services" data-i18n="nav_services">サービス</a></li>
+            <li><a href="#faq" data-i18n="nav_faq">よくある質問</a></li>
+            <li><a href="#contact" data-i18n="nav_contact">お問い合わせ</a></li>
+          </ul>
+        </div>
+        <div class="footer-nav">
+          <h5 data-i18n="footer_service_title">サービス</h5>
+          <ul>
+            <li><a href="#services">HATIマレー式産褥ケア</a></li>
+            <li><a href="#services">HATIマレー式オイルケア</a></li>
+            <li><a href="#services">HATIスリミングケア</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p data-i18n="footer_copy">© 2026 HATI SINGAPURA. All rights reserved.</p>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/malay_massage_miki/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://lin.ee/6wOgzOm" target="_blank" rel="noopener" aria-label="LINE">
+            <svg width="18" height="18" viewBox="0 0 48 48" fill="currentColor"><path d="M24 4C12.95 4 4 11.86 4 21.5c0 5.7 3.1 10.76 7.93 14.06-.35 1.3-1.28 4.7-1.47 5.42-.23.88.32 1.87 1.28 1.41 0 0 5.75-3.8 8.1-5.36.7.1 1.42.15 2.16.15C33.05 37 44 29.14 44 19.5S35.05 2 24 2z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
