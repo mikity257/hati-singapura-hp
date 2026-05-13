@@ -42,7 +42,7 @@ const translations = {
     svc3_desc:    "足やおなかなど気になる箇所のセルライトケア。産後こそキレイになりたい方に。",
     svc3_time:    "全身マッサージ 90分（ヘッドマッサージ込み）",
 
-    services_note: "※ 全てのサービスはご自宅への出張対応です。シンガポール島内全域に伺います。料金はお問い合わせください。",
+    services_note: "※ 全てのサービスはご自宅への出張対応です。<br class=\"sp-only\">シンガポール島内全域に伺います。<br class=\"sp-only\">料金はお問い合わせください。",
 
     // VOICES
     test_sub:   "VOICE",
