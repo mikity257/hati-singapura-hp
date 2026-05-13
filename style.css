@@ -890,5 +890,13 @@ a.contact-link:hover { color: white; }
 
 @media (max-width: 480px) {
   .container { padding: 0 1.2rem; }
-  .concept-stats { flex-wrap: wrap; justify-content: center; }
+  .concept-stats {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.5rem;
+  }
+  .stat { flex: 1 1 0; min-width: 0; }
+  .stat-num { font-size: 1.4rem; }
+  .stat-label { font-size: 0.6rem; }
+  .stat-divider { height: 28px; }
 }
