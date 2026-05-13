@@ -46,7 +46,7 @@ const translations = {
 
     // VOICES
     test_sub:   "VOICE",
-    test_title: "ご利用いただいたお母さんから",
+    test_title: "ご利用いただいた<br class=\"sp-only\">お母さんから",
 
     // FAQ
     faq_title: "よくあるご質問",
