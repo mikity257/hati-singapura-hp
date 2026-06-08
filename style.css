@@ -446,7 +446,7 @@ section { padding: 7rem 0; }
 }
 
 /* ===== CONCEPT ===== */
-.concept { padding: 0; background: var(--cream); }
+.concept { padding: 0; background: var(--cream); margin-top: 70px; }
 .concept-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
