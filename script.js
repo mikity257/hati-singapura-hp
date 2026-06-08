@@ -78,14 +78,14 @@ const translations = {
     therapist_bio1: "はじめまして、牧浦美希です。日本人として、シンガポールでHATIマレー式産後ケアセラピスト・スクール講師として活動しています。",
     therapist_bio2: "「産後ケアを自分のために」と思えるお母さんを一人でも増やしたい。そんな思いで活動を続けてきた結果、おかげさまで日本人人気No.1のセラピストとして多くのお母さんにご利用いただいています。",
     therapist_bio3: "私自身も３児の母として、産後の身体のつらさも、言葉にならない不安も体験してきました。技術はもちろん、心に寄り添ったケアで回復のお手伝いをさせていただきます。",
+    therapist_cert0: "シンガポール公認国際資格保持",
     therapist_cert1: "HATIマレー式産後ボディケアセラピスト",
     therapist_cert2: "HATIスクール講師",
     therapist_cert3: "シンガポール人気No.1 日本人セラピスト",
     therapist_cert4: "３児の母",
-    therapist_tag1: "日本人セラピスト",
+    therapist_tag1: "国際資格保持",
     therapist_tag2: "HATI代表",
     therapist_tag3: "スクール講師",
-    therapist_tag4: "シンガポール人気No.1",
 
     // CONTACT
     contact_title: "まずはお気軽に<br>ご連絡ください",
@@ -177,14 +177,14 @@ const translations = {
     therapist_bio1: "Hi, I'm Miki Makiura — a Japanese HATI-certified postnatal therapist and school instructor based in Singapore.",
     therapist_bio2: "Thanks to the support of so many wonderful mothers, I've grown to become Singapore's No.1 HATI therapist — and I also train the next generation of practitioners.",
     therapist_bio3: "As a Japanese woman, I truly understand the anxieties of giving birth far from home. Talk to me about anything — your body, your worries, your hopes. I'm here for you.",
+    therapist_cert0: "Singapore Internationally Certified",
     therapist_cert1: "HATI Malay Postnatal Care Certified Therapist",
     therapist_cert2: "HATI School Certified Instructor",
     therapist_cert3: "Singapore's No.1 HATI Postnatal Therapist",
     therapist_cert4: "Instagram: @malay_massage_miki",
-    therapist_tag1: "Japanese Therapist",
+    therapist_tag1: "Int'l Certified",
     therapist_tag2: "HATI Certified",
     therapist_tag3: "School Instructor",
-    therapist_tag4: "Singapore No.1",
 
     // CONTACT
     contact_title: "We'd love to<br>hear from you",
