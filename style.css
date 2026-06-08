@@ -156,8 +156,17 @@ section { padding: 7rem 0; }
   margin-bottom: 0.22rem;
   transition: color 0.4s;
 }
-.navbar:not(.scrolled) .logo-main { color: white; }
-.navbar:not(.scrolled) .logo-sub  { color: rgba(255,255,255,0.55); }
+.logo-tagline {
+  font-family: var(--sans);
+  font-size: 0.48rem;
+  letter-spacing: 0.28em;
+  color: var(--primary);
+  margin-top: 0.3rem;
+  transition: color 0.4s;
+}
+.navbar:not(.scrolled) .logo-main    { color: white; }
+.navbar:not(.scrolled) .logo-sub     { color: rgba(255,255,255,0.55); }
+.navbar:not(.scrolled) .logo-tagline { color: rgba(212,185,140,0.85); }
 
 .nav-links {
   display: flex;
