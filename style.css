@@ -580,15 +580,6 @@ section { padding: 7rem 0; }
   transform: translateY(-5px);
   box-shadow: var(--shadow);
 }
-.voice-stars {
-  color: var(--primary); font-size: 0.75rem;
-  letter-spacing: 3px; margin-bottom: 0.8rem;
-}
-.voice-quote {
-  font-family: var(--serif); font-size: 4.5rem;
-  line-height: 0.8; color: var(--sand);
-  margin-bottom: 0.6rem;
-}
 .voice-text {
   font-size: 0.9rem; color: var(--text);
   line-height: 1.95; margin-bottom: 1.6rem;
