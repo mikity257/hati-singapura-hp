@@ -751,15 +751,23 @@ section { padding: 7rem 0; }
   display: flex; gap: 0.8rem; margin-top: 1.5rem;
 }
 .therapist-link {
-  display: inline-flex; align-items: center;
-  font-size: 0.8rem; color: var(--text);
+  display: inline-flex; align-items: center; gap: 0.45rem;
+  font-size: 0.8rem; font-weight: 500; color: white;
   padding: 0.5rem 1.4rem;
-  border: 1px solid var(--warm); border-radius: 20px;
+  border: none; border-radius: 20px;
   transition: var(--transition);
 }
-.therapist-link:hover {
-  background: var(--primary); color: white;
-  border-color: var(--primary);
+.therapist-link--ig {
+  background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+.therapist-link--ig:hover {
+  opacity: 0.88; transform: translateY(-2px);
+}
+.therapist-link--line {
+  background: #06C755;
+}
+.therapist-link--line:hover {
+  background: #05b04c; transform: translateY(-2px);
 }
 
 /* ===== CONTACT ===== */
