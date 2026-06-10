@@ -598,41 +598,44 @@ section { padding: 7rem 0; }
 /* 4-card grid */
 .flow-cards {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1.4rem;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 1.2rem;
   margin-bottom: 2.2rem;
+  width: 100%;
 }
 .flow-card {
   background: white;
   border-radius: var(--radius);
+  border: 1px solid var(--sand);
   box-shadow: var(--shadow-sm);
   overflow: hidden;
   display: flex;
   flex-direction: column;
+  min-width: 0;
 }
 .flow-card-body {
-  padding: 1.6rem 1.4rem 1.4rem;
+  padding: 1.4rem 1.2rem 1.2rem;
   flex: 1;
 }
 .flow-card-num {
   display: block;
   font-family: var(--serif);
-  font-size: 1.9rem;
+  font-size: 2rem;
   font-weight: 300;
   color: var(--primary);
   line-height: 1;
-  margin-bottom: 0.9rem;
+  margin-bottom: 0.8rem;
   letter-spacing: 0.04em;
 }
 .flow-card-title {
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: 1rem;
   color: var(--dark);
-  margin-bottom: 0.7rem;
-  line-height: 1.4;
+  margin-bottom: 0.6rem;
+  line-height: 1.45;
 }
 .flow-card-desc {
-  font-size: 0.82rem;
+  font-size: 0.8rem;
   color: var(--text-light);
   line-height: 1.85;
 }
@@ -640,6 +643,7 @@ section { padding: 7rem 0; }
   width: 100%;
   aspect-ratio: 4/3;
   overflow: hidden;
+  flex-shrink: 0;
 }
 .flow-card-img img {
   width: 100%;
@@ -667,9 +671,7 @@ section { padding: 7rem 0; }
   border: 1px dashed var(--primary);
   border-radius: 8px;
 }
-.flow-after-item {
-  flex: 1;
-}
+.flow-after-item { flex: 1; }
 .flow-after-label {
   display: block;
   font-size: 0.78rem;
@@ -684,13 +686,13 @@ section { padding: 7rem 0; }
   line-height: 1.8;
 }
 
-@media (max-width: 900px) {
-  .flow-cards { grid-template-columns: repeat(2, 1fr); }
-}
-@media (max-width: 600px) {
+@media (max-width: 767px) {
   .flow-section { padding: 2.5rem 1.5rem; }
-  .flow-cards { grid-template-columns: 1fr; }
+  .flow-cards { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
   .flow-after { flex-direction: column; gap: 1.2rem; }
+}
+@media (max-width: 480px) {
+  .flow-cards { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ===== VOICES ===== */
