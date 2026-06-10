@@ -44,6 +44,22 @@ const translations = {
 
     services_note: "※ 全てのサービスはご自宅への出張対応です。<br class=\"sp-only\">シンガポール島内全域に伺います。<br class=\"sp-only\">料金はお問い合わせください。",
 
+    // FLOW
+    flow_eyebrow:   "FLOW",
+    flow_title:     "HATIマレー式産褥ケア 施術の流れ",
+    flow_lead:      "初めての方も安心してお受けいただけるよう、<br>丁寧にご説明しながら進めます。",
+    flow_d1_label:  "初日",
+    flow_d1_dur:    "約2時間",
+    flow_d1_s1:     "カウンセリング＆サイズ測定",
+    flow_d1_s2:     "全身オイルマッサージ＋腹部バインディング",
+    flow_d2_label:  "2日目以降",
+    flow_d2_dur:    "約1時間半",
+    flow_d2_note:   "セラピスト到着前に、腹帯を外してシャワーと授乳（または搾乳）をお済ませください。",
+    flow_d2_s1:     "全身オイルマッサージ＋腹部バインディング",
+    flow_last_label:"最終日",
+    flow_last_s1:   "全身オイルマッサージのみ",
+    flow_last_s2:   "サイズ測定・ビフォーアフター確認",
+
     // VOICES
     test_sub:   "VOICE",
     test_title: "ご利用いただいた<br class=\"sp-only\">お母さんから",
@@ -147,6 +163,22 @@ const translations = {
     svc3_time:    "Full-body massage 90 min (head massage included)",
 
     services_note: "※ All services are provided at your home. We cover all areas of Singapore Island. Please enquire for pricing.",
+
+    // FLOW
+    flow_eyebrow:   "FLOW",
+    flow_title:     "HATI Malay Postnatal Care — Treatment Flow",
+    flow_lead:      "So that first-time clients feel completely at ease,<br>we guide you through every step.",
+    flow_d1_label:  "Day 1",
+    flow_d1_dur:    "Approx. 2 hours",
+    flow_d1_s1:     "Consultation & measurements",
+    flow_d1_s2:     "Full-body oil massage + abdominal binding",
+    flow_d2_label:  "Day 2 onwards",
+    flow_d2_dur:    "Approx. 1.5 hours",
+    flow_d2_note:   "Before your therapist arrives, please remove your bengkung, shower, and finish nursing or pumping.",
+    flow_d2_s1:     "Full-body oil massage + abdominal binding",
+    flow_last_label:"Final day",
+    flow_last_s1:   "Full-body oil massage only",
+    flow_last_s2:   "Measurements & before/after check",
 
     // VOICES
     test_sub:   "VOICES",
