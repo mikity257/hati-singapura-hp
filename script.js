@@ -70,6 +70,12 @@ const translations = {
     faq_a6: "ご出産報告をいただいた時点で最短の日程でご案内します。キャンセルにはなりませんのでご安心ください。",
     faq_q7: "日本国内でも施術を受けられますか？",
     faq_a7: "日本国内での施術をご希望の方には、HATI認定セラピストをご紹介しております。お気軽にお問い合わせください。",
+    faq_q8: "ウルッ・ムラユとはどんなケアですか？",
+    faq_a8: "マレーシア・シンガポールに古くから伝わる伝統的な産後マッサージです。全身をほぐし、産後の疲労回復・血行促進をサポートします。",
+    faq_q9: "ベンクンとはなんですか？",
+    faq_a9: "産後の腹部を伝統的な布で包むバインディング技術です。骨盤・お腹の引き締め、内臓の位置を整えることを目的としています。",
+    faq_q10: "シンガポールのどのエリアに出張してもらえますか？",
+    faq_a10: "シンガポール全域に出張対応しています。",
 
     // THERAPIST
     therapist_sub:     "セラピスト紹介",
@@ -167,8 +173,14 @@ const translations = {
     faq_q6: "How much does it cost?",
     faq_a6: "Pricing varies by service and package. Please enquire via LINE or Instagram — we're happy to share details.",
 
-    faq_q7: "Do you cover all of Singapore?",
-    faq_a7: "Yes, we visit homes across all of Singapore Island. Just let us know your area and we'll come to you.",
+    faq_q7: "Do you offer services in Japan?",
+    faq_a7: "For those wishing to receive care in Japan, we can introduce a HATI-certified therapist. Please feel free to contact us.",
+    faq_q8: "What is Urut Melayu?",
+    faq_a8: "Urut Melayu is a traditional postnatal massage that has been passed down in Malaysia and Singapore for generations. It relaxes the whole body and supports postnatal recovery and circulation.",
+    faq_q9: "What is Bengkung?",
+    faq_a9: "Bengkung is a traditional abdominal binding technique using cloth. It aims to firm the pelvis and stomach and help reposition internal organs after birth.",
+    faq_q10: "Which areas of Singapore do you cover?",
+    faq_a10: "We cover all areas of Singapore.",
 
     // THERAPIST
     therapist_sub:     "MEET YOUR THERAPIST",
