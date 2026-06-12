@@ -1028,6 +1028,11 @@ a.contact-link:hover { color: white; }
 }
 
 .sp-only { display: none; }
+.sp-md-only { display: none; }
+
+@media (max-width: 768px) {
+  .sp-md-only { display: inline; }
+}
 
 @media (max-width: 480px) {
   .sp-only { display: inline; }

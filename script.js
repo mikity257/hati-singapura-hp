@@ -48,7 +48,7 @@ const translations = {
 
     // FLOW
     flow_eyebrow:   "FLOW",
-    flow_title:     "HATIマレー式産褥ケア 施術の流れ",
+    flow_title:     "HATIマレー式産褥ケア<br class=\"sp-md-only\"> 施術の流れ",
     flow_lead:      "初めての方も安心してお受けいただけるよう、<br>丁寧にご説明しながら進めます。",
     flow_times:     "初日：約2時間　／　2日目以降：約1時間半",
     flow_c1_title:  "カウンセリング",
