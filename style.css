@@ -1170,7 +1170,7 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   margin: 2em 0 1em;
   border-radius: 2px;
 }
-.article-body h3 { font-family: inherit; font-size: 1.15rem; font-weight: 700; margin: 2rem 0 0.8rem; color: var(--primary-d); }
+.article-body h3 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 0.8rem; color: var(--primary-d); }
 .article-body p { margin-bottom: 1.4rem; line-height: 2; }
 .article-body ul { margin: 0 0 1.4rem 1.4rem; line-height: 2; }
 .article-body hr { border: none; border-top: 1px solid var(--sand); margin: 2.8rem 0; }
