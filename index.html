@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Lato:wght@300;400;700&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Serif+JP:wght@300;400&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css?v=20260706f" />
+  <link rel="stylesheet" href="style.css?v=20260706g" />
 
   <!-- Canonical -->
   <link rel="canonical" href="https://hati-sg.com/" />
@@ -68,13 +68,16 @@
 
   <!-- MOBILE MENU -->
   <div class="mobile-menu" role="dialog" aria-modal="true">
-    <button class="mobile-menu-close" aria-label="Close menu">✕</button>
+    <div class="mobile-menu-bar">
+      <span>MENU</span>
+      <button class="mobile-menu-close" aria-label="Close menu">✕</button>
+    </div>
     <ul class="mobile-nav-links">
-      <li><a href="#hero" data-i18n="nav_home">トップ</a></li>
-      <li><a href="#services" data-i18n="nav_services">サービス</a></li>
-      <li><a href="#faq" data-i18n="nav_faq">よくある質問</a></li>
-      <li><a href="#contact" data-i18n="nav_contact">お問い合わせ</a></li>
-      <li><a href="/column/">コラム</a></li>
+      <li><a href="#hero"><span class="menu-arrow">›</span><span class="menu-en">HOME</span><span class="menu-ja">ホーム</span></a></li>
+      <li><a href="#services"><span class="menu-arrow">›</span><span class="menu-en">SERVICE</span><span class="menu-ja">サービス</span></a></li>
+      <li><a href="#faq"><span class="menu-arrow">›</span><span class="menu-en">FAQ</span><span class="menu-ja">よくある質問</span></a></li>
+      <li><a href="#contact"><span class="menu-arrow">›</span><span class="menu-en">CONTACT</span><span class="menu-ja">お問い合わせ</span></a></li>
+      <li><a href="/column/"><span class="menu-arrow">›</span><span class="menu-en">BLOG</span><span class="menu-ja">コラム</span></a></li>
     </ul>
     <div class="mobile-lang">
       <button class="lang-btn mobile-lang-btn active" data-lang="ja">JP</button>
