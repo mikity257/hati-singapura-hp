@@ -1137,7 +1137,7 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   margin-bottom: 0.7rem;
 }
 .column-card-title {
-  font-size: 1.2rem;
+  font-size: 0.95rem;
   margin-bottom: 0.7rem;
   line-height: 1.5;
 }
