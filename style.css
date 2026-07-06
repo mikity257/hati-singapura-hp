@@ -1164,6 +1164,7 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   background-color: #b8963e;
   color: #ffffff;
   padding: 0.6em 1em;
+  font-family: inherit;
   font-size: 1.1rem;
   font-weight: bold;
   margin: 2em 0 1em;
