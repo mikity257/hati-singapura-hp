@@ -118,7 +118,7 @@ const translations = {
     contact_desc:  "初めてのご利用でも大丈夫です。ご質問やご不安なことがあれば、何でもお気軽にお問い合わせください。日本語でお答えします。",
 
     // FOOTER
-    footer_desc:          "シンガポール在住の日本人ママへ。<br>マレー伝統の産後ケアで、回復の時間を大切に。",
+    footer_desc:          "マレー伝統の産後ケアで、回復の時間を大切に。",
     footer_nav_title:     "ナビゲーション",
     footer_service_title: "サービス",
     footer_copy:          "© 2026 HATI SINGAPURA. All rights reserved.",
