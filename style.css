@@ -1174,6 +1174,14 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   margin: 0 auto 2em;
   border-radius: var(--radius);
 }
+.article-inline-img {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+  display: block;
+  margin: 1em auto 2em;
+  border-radius: var(--radius);
+}
 .article-body h2 {
   background-color: #b8963e;
   color: #ffffff;
