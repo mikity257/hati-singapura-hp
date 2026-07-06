@@ -1160,7 +1160,15 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
 
 /* Article body typography */
 .article-body { max-width: 720px; margin: 0 auto; padding: 4rem 2rem; }
-.article-body h2 { font-size: 1.5rem; margin: 2.6rem 0 1.1rem; }
+.article-body h2 {
+  background-color: #b8963e;
+  color: #ffffff;
+  padding: 0.6em 1em;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 2em 0 1em;
+  border-radius: 2px;
+}
 .article-body h3 { font-size: 1.15rem; font-weight: 700; margin: 2rem 0 0.8rem; color: var(--primary-d); }
 .article-body p { margin-bottom: 1.4rem; line-height: 2; }
 .article-body ul { margin: 0 0 1.4rem 1.4rem; line-height: 2; }
