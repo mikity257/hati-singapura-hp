@@ -908,6 +908,14 @@ section { padding: 7rem 0; }
 /* ===== CTA BUTTON (pre-voices) ===== */
 .cta-btn-section { background: var(--white); padding: 1.5rem 0 0; }
 .cta-btn-wrap { text-align: center; }
+.cta-btn-desc {
+  font-family: var(--sans);
+  color: var(--text-light);
+  font-size: 0.95rem;
+  line-height: 2;
+  max-width: 500px;
+  margin: 0 auto 1.5rem;
+}
 
 /* ===== CONTACT ===== */
 .contact {
