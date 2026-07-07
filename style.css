@@ -906,7 +906,7 @@ section { padding: 7rem 0; }
 }
 
 /* ===== CTA BUTTON (pre-voices) ===== */
-.cta-btn-section { background: var(--white); padding: 5rem 0 0; }
+.cta-btn-section { background: var(--white); padding: 1.5rem 0 0; }
 .cta-btn-wrap { text-align: center; }
 
 /* ===== CONTACT ===== */
