@@ -953,6 +953,7 @@ section { padding: 7rem 0; }
   transform: translateY(-4px);
   box-shadow: 0 10px 36px rgba(6,199,85,0.4);
 }
+.line-btn br.sp-only { display: none; }
 .contact-sub {
   display: flex; align-items: center;
   justify-content: center;
@@ -1273,6 +1274,7 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
 }
 @media (max-width: 767px) {
   .column-cards { grid-template-columns: 1fr; }
+  .line-btn br.sp-only { display: inline; }
 }
 
 /* Article body typography */
