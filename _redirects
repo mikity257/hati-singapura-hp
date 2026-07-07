@@ -1,1 +1,3 @@
 https://www.hati-sg.com/* https://hati-sg.com/:splat 301
+/column/* /blog/:splat 301
+/column /blog/ 301
