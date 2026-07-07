@@ -6,6 +6,7 @@ const translations = {
     nav_services: "サービス",
     nav_faq:      "よくある質問",
     nav_contact:  "お問い合わせ",
+    nav_menu_contact: "予約・お問い合わせ",
     lang_label:   "EN",
 
     // HERO
@@ -130,6 +131,7 @@ const translations = {
     nav_services: "Services",
     nav_faq:      "FAQ",
     nav_contact:  "Contact",
+    nav_menu_contact: "Contact",
     lang_label:   "JP",
 
     // HERO
