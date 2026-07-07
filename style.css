@@ -663,6 +663,8 @@ section { padding: 7rem 0; }
   height: 100%;
   object-fit: cover;
   display: block;
+  margin: 0;
+  padding: 0;
   transition: transform 0.9s var(--ease);
 }
 .flow-card:hover .flow-card-img img {
@@ -673,6 +675,12 @@ section { padding: 7rem 0; }
 }
 .flow-card:hover .flow-card-img--zoom img {
   transform: scale(1.35);
+}
+.flow-card-img--zoom-lg img {
+  transform: scale(1.4);
+}
+.flow-card:hover .flow-card-img--zoom-lg img {
+  transform: scale(1.45);
 }
 
 /* After-day notes */
