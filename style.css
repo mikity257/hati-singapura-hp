@@ -910,17 +910,33 @@ section { padding: 7rem 0; }
 .cta-btn-wrap { text-align: center; }
 
 /* ===== CONTACT ===== */
-.contact { background: var(--dark); padding: 9rem 0; }
+.contact {
+  background: var(--dark);
+  background-image: url('/images/バティック.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 9rem 0;
+  position: relative;
+}
+.contact::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.4);
+}
 .contact-inner {
+  position: relative;
+  z-index: 1;
   max-width: 600px; margin: 0 auto;
   text-align: center; padding: 0 2rem;
 }
+.contact .eyebrow.light { color: #3a2a1a; }
 .contact h2 {
   font-size: clamp(2rem, 4vw, 3rem);
-  color: white; margin-bottom: 1rem; line-height: 1.45;
+  color: #3a2a1a; margin-bottom: 1rem; line-height: 1.45;
 }
 .contact-lead {
-  font-size: 0.95rem; color: rgba(255,255,255,0.6);
+  font-size: 0.95rem; color: rgba(58,42,26,0.8);
   line-height: 2.1; margin-bottom: 3rem;
 }
 .line-btn {
@@ -944,15 +960,15 @@ section { padding: 7rem 0; }
 }
 .contact-link {
   display: inline-flex; align-items: center; gap: 0.5rem;
-  font-size: 0.83rem; color: rgba(255,255,255,0.55);
+  font-size: 0.83rem; color: rgba(58,42,26,0.7);
   transition: color 0.3s;
 }
-a.contact-link:hover { color: white; }
+a.contact-link:hover { color: #3a2a1a; }
 .contact-area {
   display: inline-flex; align-items: center; gap: 0.5rem;
-  font-size: 0.83rem; color: rgba(255,255,255,0.45);
+  font-size: 0.83rem; color: rgba(58,42,26,0.7);
 }
-.contact-sep { color: rgba(255,255,255,0.25); }
+.contact-sep { color: rgba(58,42,26,0.25); }
 
 /* ===== FOOTER ===== */
 .footer { background: #1C0E07; color: rgba(255,255,255,0.5); padding: 4.5rem 0 2rem; }
