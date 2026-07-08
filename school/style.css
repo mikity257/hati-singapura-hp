@@ -857,9 +857,7 @@ a { text-decoration: none; color: inherit; }
   color: rgba(255,255,255,0.85);
 }
 .line-cta-btn {
-  display: block;
-  text-align: center;
-  margin: 0 auto;
+  display: inline-block;
   padding: 0.7rem 1.6rem;
   background: #fff;
   color: #06C755;
@@ -1062,6 +1060,9 @@ a { text-decoration: none; color: inherit; }
   .present-book-box { font-size: 1.2rem; }
   .present-book-name { font-size: 1.4rem; }
   .present-banner-img { max-width: 80%; }
+
+  /* 無料相談ボタン - モバイル版のみ中央寄せ */
+  .line-cta-btn { display: block; margin: 0 auto; text-align: center; }
 }
 
 @media (max-width: 480px) {
