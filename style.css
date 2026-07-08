@@ -1328,9 +1328,10 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
 
 .article-cta { text-align: center; padding: 0 2rem 4.5rem; }
 .school-cta-btn {
-  display: block;
+  display: inline-block;
+  width: auto;
   margin-top: 1em;
-  padding: 0.9em 1.5em;
+  padding: 0.9em 2.5em;
   background: #b8963e;
   color: #ffffff;
   text-align: center;
@@ -1340,6 +1341,13 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   transition: opacity 0.3s;
 }
 .school-cta-btn:hover { opacity: 0.85; }
+@media (max-width: 767px) {
+  .school-cta-btn {
+    display: block;
+    width: 100%;
+    padding: 0.9em 1.5em;
+  }
+}
 
 .article-related { background: var(--cream); padding: 3.5rem 2rem 4rem; }
 .article-related-inner { max-width: 640px; margin: 0 auto; }
