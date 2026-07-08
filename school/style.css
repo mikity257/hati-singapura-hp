@@ -1019,7 +1019,6 @@ a { text-decoration: none; color: inherit; }
   .curriculum-item:hover { padding-left: 0; padding-right: 0; margin: 0; }
   .curriculum-meta { flex-direction: row; align-items: baseline; gap: 0.5rem; }
   .curriculum-num { font-size: 1.8rem; }
-  .curriculum-body ul { padding-left: 1.5em; }
 
   /* Voices */
   .voices-videos    { grid-template-columns: 1fr; }
@@ -1033,6 +1032,11 @@ a { text-decoration: none; color: inherit; }
 
   /* Footer */
   .footer-nav { gap: 1.2rem; }
+}
+
+@media (max-width: 767px) {
+  /* Curriculum - 箇条書きのインデント調整 */
+  .curriculum-body ul { padding-left: 1.5em; }
 }
 
 @media (max-width: 480px) {
