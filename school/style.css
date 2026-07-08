@@ -789,6 +789,20 @@ a { text-decoration: none; color: inherit; }
   height: auto;
   display: block;
 }
+.present-banner-text { text-align: center; margin-bottom: 1em; }
+.present-lead { font-size: 1.2rem; line-height: 2; }
+.present-lead-br { display: none; }
+.present-book-box {
+  display: inline-block;
+  border: 2px solid #b8963e;
+  padding: 0.8em 1.5em;
+  margin: 0.8em auto;
+  text-align: center;
+  font-size: 1.32rem;
+  font-weight: bold;
+  line-height: 1.8;
+}
+.present-book-name { font-size: 1.54rem; }
 
 .line-cta-outer {
   background: var(--cream);
@@ -1037,6 +1051,12 @@ a { text-decoration: none; color: inherit; }
 @media (max-width: 767px) {
   /* Curriculum - 箇条書きのインデント調整 */
   .curriculum-body ul { padding-left: 1.5em; }
+
+  /* プレゼントバナー - モバイル版のテキストサイズ・改行 */
+  .present-lead { font-size: 1rem; }
+  .present-lead-br { display: inline; }
+  .present-book-box { font-size: 1.2rem; }
+  .present-book-name { font-size: 1.4rem; }
 }
 
 @media (max-width: 480px) {
