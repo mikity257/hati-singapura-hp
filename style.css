@@ -1326,7 +1326,14 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
 .article-body ul { margin: 0 0 1.4rem 1.4rem; line-height: 2; }
 .article-body hr { border: none; border-top: 1px solid var(--sand); margin: 2.8rem 0; }
 
-.article-cta { text-align: center; padding: 0 2rem 4.5rem; }
+.article-cta {
+  text-align: center;
+  padding: 0 2rem 4.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
 .school-cta-btn {
   display: inline-block;
   width: auto;
