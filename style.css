@@ -1327,6 +1327,19 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
 .article-body hr { border: none; border-top: 1px solid var(--sand); margin: 2.8rem 0; }
 
 .article-cta { text-align: center; padding: 0 2rem 4.5rem; }
+.school-cta-btn {
+  display: block;
+  margin-top: 1em;
+  padding: 0.9em 1.5em;
+  background: #b8963e;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 0.9rem;
+  border-radius: 2px;
+  transition: opacity 0.3s;
+}
+.school-cta-btn:hover { opacity: 0.85; }
 
 .article-related { background: var(--cream); padding: 3.5rem 2rem 4rem; }
 .article-related-inner { max-width: 640px; margin: 0 auto; }
