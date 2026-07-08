@@ -855,7 +855,9 @@ a { text-decoration: none; color: inherit; }
   color: rgba(255,255,255,0.85);
 }
 .line-cta-btn {
-  display: inline-block;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
   padding: 0.7rem 1.6rem;
   background: #fff;
   color: #06C755;
