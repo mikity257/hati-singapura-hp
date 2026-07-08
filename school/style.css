@@ -576,7 +576,7 @@ a { text-decoration: none; color: inherit; }
 }
 .instructor-photo {
   width: 100%; aspect-ratio: 3/4;
-  background: url('instructor.jpeg') center 30% / cover no-repeat;
+  background: url('instructor.jpeg') center top / cover no-repeat;
   border-radius: var(--radius);
 }
 .instructor-label {
