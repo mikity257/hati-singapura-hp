@@ -786,8 +786,10 @@ a { text-decoration: none; color: inherit; }
 }
 .present-banner-img {
   width: 100%;
+  max-width: 400px;
   height: auto;
   display: block;
+  margin: 0 auto;
 }
 .present-banner-text { text-align: center; margin-bottom: 1em; }
 .present-lead { font-size: 1.2rem; line-height: 2; }
@@ -1059,6 +1061,7 @@ a { text-decoration: none; color: inherit; }
   .present-lead-br { display: inline; }
   .present-book-box { font-size: 1.2rem; }
   .present-book-name { font-size: 1.4rem; }
+  .present-banner-img { max-width: 80%; }
 }
 
 @media (max-width: 480px) {
