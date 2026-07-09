@@ -962,12 +962,14 @@ a { text-decoration: none; color: inherit; }
   /* Nav */
   .nav-inner { padding: 0 1.5rem; }
   .nav-links  { display: none; }
-  .nav-toggle { display: flex; }
+  .nav-toggle { display: flex; position: relative; z-index: 10000; }
   .nav-links.open {
     display: flex; flex-direction: column;
-    position: fixed; top: 64px; left: 0; right: 0; bottom: 0;
-    background: rgba(255,255,255,0.98);
+    position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+    z-index: 9999;
+    background-color: #ffffff;
     padding: 3rem 2rem; gap: 2rem;
+    padding-top: calc(64px + 3rem);
     overflow-y: auto;
     border-top: 1px solid var(--warm);
   }
