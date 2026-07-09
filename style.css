@@ -1134,6 +1134,9 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   margin: 0 auto;
   line-height: 2;
 }
+@media (min-width: 768px) {
+  .page-banner p { white-space: nowrap; max-width: none; }
+}
 .article-category {
   display: block;
   font-size: 0.7rem;
