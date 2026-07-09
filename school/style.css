@@ -710,6 +710,7 @@ a { text-decoration: none; color: inherit; }
   background: #ffffff;
   border-radius: 1.2rem;
   border: none;
+  outline: none;
   box-shadow: none;
   padding: 3.5rem;
 }
@@ -748,13 +749,16 @@ a { text-decoration: none; color: inherit; }
   justify-content: center;
   align-items: center;
   border: none;
-  border-right: none;
+  outline: none;
+  box-shadow: none;
 }
 .about-logo-inner {
   width: 340px; height: 340px;
   background: url('logo.png') center / contain no-repeat;
+  background-color: #ffffff;
   border: none;
-  border-right: none;
+  outline: none;
+  box-shadow: none;
 }
 .about-logo-inner:not([style]) .about-logo-text,
 .about-logo-inner .about-logo-text {
