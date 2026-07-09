@@ -772,9 +772,8 @@ a { text-decoration: none; color: inherit; }
 
 /* ===== CONTACT ===== */
 .present-banner-outer {
-  background: var(--cream);
-  padding: 3rem 0 0;
-  margin-bottom: 3rem;
+  background-color: #faf8f5;
+  padding: 3rem 0;
 }
 .present-banner-link {
   display: block;
