@@ -1075,6 +1075,20 @@ a { text-decoration: none; color: inherit; }
 
   /* 無料相談ボタン - モバイル版のみ中央寄せ */
   .line-cta-btn { display: block; margin: 0 auto; text-align: center; }
+
+  /* About - ロゴ固定幅によるはみ出し・文字崩れの修正 */
+  .about-grid { grid-template-columns: minmax(0, 1fr); }
+  .about-card { padding: 2rem; }
+  .about-logo-inner { width: min(220px, 55vw); height: min(220px, 55vw); }
+  .about-title {
+    font-size: 1.4rem;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+  .about-body p {
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
 }
 
 @media (max-width: 480px) {
