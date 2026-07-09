@@ -812,6 +812,15 @@ a { text-decoration: none; color: inherit; }
   background: var(--cream);
   padding: 0 0 4rem;
 }
+.cta-notice-wrap { text-align: center; }
+.cta-notice {
+  display: inline-block;
+  border: 1px solid #b8963e;
+  color: #b8963e;
+  padding: 0.5em 1.5em;
+  font-size: 0.95rem;
+  margin-bottom: 1em;
+}
 .line-cta-wrap {
   max-width: 760px;
   margin: 0 auto;
