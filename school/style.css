@@ -795,6 +795,7 @@ a { text-decoration: none; color: inherit; }
   font-weight: bold;
 }
 .present-lead-br { display: none; }
+.target-note-br { display: none; }
 .present-book-box {
   display: inline-block;
   border: 2px solid #b8963e;
@@ -1073,6 +1074,9 @@ a { text-decoration: none; color: inherit; }
 
   /* プレゼントバナー - モバイル版のみ改行 */
   .present-lead-br { display: inline; }
+
+  /* ※経験・資格は一切不問 - モバイル版のみ改行 */
+  .target-note-br { display: inline; }
 
   /* 無料相談ボタン - モバイル版のみ中央寄せ */
   .line-cta-btn { display: block; margin: 0 auto; text-align: center; }
