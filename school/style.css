@@ -790,6 +790,7 @@ a { text-decoration: none; color: inherit; }
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 0.8em;
+  font-weight: bold;
 }
 .present-lead-br { display: none; }
 .present-book-box {
