@@ -488,11 +488,6 @@ a { text-decoration: none; color: inherit; }
   box-shadow: 0 8px 32px rgba(44,34,24,0.08);
   transform: translateY(-4px);
 }
-.voice-quote {
-  font-family: var(--serif);
-  font-size: 3.5rem; line-height: 0.8;
-  color: var(--gold); font-weight: 300;
-}
 .voice-body { flex-grow: 1; }
 .voice-trigger {
   font-size: 0.78rem; line-height: 1.8;
@@ -816,7 +811,8 @@ a { text-decoration: none; color: inherit; }
 .cta-notice-wrap { text-align: center; }
 .cta-notice {
   display: inline-block;
-  border: 1px solid #b8963e;
+  border: 2px solid #d4a843;
+  background-color: #fff9ec;
   color: #b8963e;
   padding: 0.5em 1.5em;
   font-size: 0.95rem;
