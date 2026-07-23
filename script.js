@@ -76,6 +76,18 @@ const translations = {
     // VOICES
     test_sub:   "VOICE",
     test_title: "ご利用いただいた<br class=\"sp-only\">お母さんから",
+    voice1_text: "バンディング中はもちろんですが、外しても尾てい骨の痛みが和らいでいて。明らかに痛みが軽減されてびっくりです！夫にはお腹が戻ってる！と驚かれました。とっても嬉しいです！",
+    voice1_name: "Y.K. さん",
+    voice1_meta: "7日間産褥ケアご利用",
+    voice2_text: "施術はもちろん、みきさんといろいろお話しできたことで心もほぐせた感じがします。気がつけば家族以外で日本語で話せるのがミキさんだけで、日本人のセラピストさんがいらっしゃるのはシンガポールの産後ママにとっても大きなことだと感じました。",
+    voice2_name: "A.S. さん",
+    voice2_meta: "オイルケアご利用",
+    voice3_text: "10日間マッサージありがとうございました！身体が楽になったし、疲れていた身体が回復しました。夫にも痩せたと驚かれて嬉しかったです。子育てについても相談させていただき安心感が凄かったです。",
+    voice3_name: "M.T. さん",
+    voice3_meta: "10日間産褥ケアご利用",
+    voice4_text: "5日間の産褥マッサージを経て、見事5キロ近く減りました！妊娠中に13キロ太ってしまった私…旦那さんが育休中に自宅で施術を受けて体型を戻せるのであれば、こんなに嬉しい事はない。本当にありがとうございました。",
+    voice4_name: "N.O. さん",
+    voice4_meta: "5日間産褥ケアご利用",
 
     // FAQ
     faq_title: "よくあるご質問",
@@ -210,6 +222,18 @@ const translations = {
     // VOICES
     test_sub:   "VOICES",
     test_title: "Words from our mothers",
+    voice1_text: "Not only during the binding, but even after taking it off, the pain in my tailbone eased. I was amazed at how much it had reduced! My husband was surprised too — he said my belly had gone back to normal. I'm so happy!",
+    voice1_name: "Y.K.",
+    voice1_meta: "7-Day Postpartum Care",
+    voice2_text: "The treatment itself was wonderful, but being able to talk with Miki about all kinds of things helped me relax emotionally too. She was the only person outside my family I could speak Japanese with — having a Japanese therapist here means so much to postpartum moms in Singapore.",
+    voice2_name: "A.S.",
+    voice2_meta: "Oil Care Treatment",
+    voice3_text: "Thank you for the 10 days of massage! My body feels so much lighter, and my exhausted body has recovered. My husband was surprised and happy to see me looking slimmer. Being able to talk about parenting too gave me such a sense of reassurance.",
+    voice3_name: "M.T.",
+    voice3_meta: "10-Day Postpartum Care",
+    voice4_text: "After 5 days of postpartum massage, I lost almost 5kg! I had gained 13kg during pregnancy... being able to get treatment at home while my husband was on paternity leave, and getting my body back — nothing could make me happier. Thank you so much.",
+    voice4_name: "N.O.",
+    voice4_meta: "5-Day Postpartum Care",
 
     // FAQ
     faq_title: "Frequently Asked Questions",
