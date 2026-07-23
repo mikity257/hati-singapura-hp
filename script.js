@@ -69,6 +69,10 @@ const translations = {
     flow_last_note: "全身オイルマッサージのみ → ビフォーアフター確認",
 
     // BEFORE / AFTER
+    ba_title:          "実際の変化をご覧ください",
+    ba_item1_label:    "産褥ケア　5日間",
+    ba_item2_label:    "産褥ケア　10日間",
+    ba_item3_label:    "スリミングケア　10回",
     ba_instagram_text: "詳しい施術の様子やご感想は、Instagramハイライトで公開しています",
     ba_instagram_btn:  "Instagramで見る",
 
@@ -218,6 +222,10 @@ const translations = {
     flow_last_note: "Full-body oil massage only → Measurements & before/after check",
 
     // BEFORE / AFTER
+    ba_title:          "See the Real Results",
+    ba_item1_label:    "Postpartum Care – 5 Days",
+    ba_item2_label:    "Postpartum Care – 10 Days",
+    ba_item3_label:    "Slimming Care – 10 Sessions",
     ba_instagram_text: "Follow our Instagram highlights for more photos and reviews from real clients",
     ba_instagram_btn:  "View on Instagram",
 
