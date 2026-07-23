@@ -69,6 +69,10 @@ const translations = {
     flow_last_label:"■ 最終日",
     flow_last_note: "全身オイルマッサージのみ → ビフォーアフター確認",
 
+    // CONTACT CTA (before voices)
+    cta_btn_desc: "空き状況の確認や料金に関するご質問など、<br>お気軽にお問い合わせください。",
+    cta_btn_text: "ご予約・お問い合わせは<br class=\"sp-only\">こちら",
+
     // VOICES
     test_sub:   "VOICE",
     test_title: "ご利用いただいた<br class=\"sp-only\">お母さんから",
@@ -197,6 +201,10 @@ const translations = {
     flow_d2_note:   "Before your therapist arrives, please remove your sarashi, shower, and finish nursing or pumping. → Full-body oil massage + abdominal binding",
     flow_last_label:"■ Final day",
     flow_last_note: "Full-body oil massage only → Measurements & before/after check",
+
+    // CONTACT CTA (before voices)
+    cta_btn_desc: "For questions about availability or pricing, feel free to reach out anytime.",
+    cta_btn_text: "Book / Contact Us",
 
     // VOICES
     test_sub:   "VOICES",
