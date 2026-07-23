@@ -21,6 +21,10 @@ const translations = {
     about_p2: '"マレー伝統 × 現代ケア × 日本人女性"をコンセプトに、マレーシアやシンガポールに古くから伝わる産後ケアの知恵—ウルッ・ムラユ（伝統マッサージ）、ベンクン（腹部バインディング）の伝統技術を、現代の日本人女性に寄り添うかたちでお届けします。',
     about_p3: "HATI SINGAPURAでは、一時的なリラクゼーションだけでなく、ご自身でも変化を実感していただける結果にこだわったケアをご提供しています。また、産後ならではの揺らぎやすい心にもそっと寄り添いながら、心身の回復をサポートいたします。",
     about_p4: "お腹だけでなく、全身が少しずつ整い、本来の軽やかさを取り戻していく。その変化の過程も楽しみながら、一人ひとりに寄り添い伴走いたします。",
+    stat1_label: "施術人数",
+    stat2_label: "日本人セラピスト",
+    stat3_num:   "6<small>ヶ月</small>",
+    stat3_label: "先まで予約殺到",
 
     // SERVICES
     services_sub:  "MENU",
@@ -146,6 +150,10 @@ const translations = {
     about_p2: "Urut Melayu (traditional massage), Bengkung (abdominal binding), and Jamu (herbal drinks) — time-honoured Malay postnatal wisdom, delivered to your home in Japanese.",
     about_p3: "At HATI SINGAPURA, we focus on care that delivers results you can truly feel — not just temporary relaxation. We gently support your mind and body through the emotional ups and downs unique to the postnatal period.",
     about_p4: "Little by little, your whole body — not just your abdomen — begins to realign and regain its natural lightness. We walk alongside you throughout that process, savouring each change together.",
+    stat1_label: "Treatments Performed",
+    stat2_label: "Japanese Therapists",
+    stat3_num:   "&nbsp;",
+    stat3_label: "Booked 6 Months Ahead",
 
     // SERVICES
     services_sub:   "OUR SERVICES",
