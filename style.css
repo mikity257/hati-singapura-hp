@@ -772,12 +772,25 @@ section { padding: 7rem 0; }
 .ba-instagram {
   text-align: center;
   margin-top: 2.8rem;
+  padding: 2rem 2rem 2.2rem;
+  background: linear-gradient(135deg, rgba(212, 168, 67, 0.10), rgba(184, 137, 106, 0.08));
+  border: 1px solid rgba(212, 168, 67, 0.25);
+  border-radius: var(--radius);
 }
 .ba-instagram p {
-  font-size: 0.85rem;
-  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-size: 0.98rem;
+  font-weight: 700;
+  color: var(--primary-d);
   letter-spacing: 0.03em;
-  margin-bottom: 1.3rem;
+  margin-bottom: 1.4rem;
+}
+.ba-instagram-icon {
+  flex-shrink: 0;
+  color: #d4a843;
 }
 
 /* ===== FAQ ===== */
@@ -1073,6 +1086,8 @@ a.contact-link:hover { color: #3a2a1a; }
     grid-template-columns: 1fr;
     max-width: 380px; margin: 0 auto;
   }
+  .ba-instagram { padding: 1.6rem 1.3rem 1.8rem; }
+  .ba-instagram p { font-size: 0.9rem; }
 
   /* Therapist */
   .therapist-grid { grid-template-columns: 1fr; }
