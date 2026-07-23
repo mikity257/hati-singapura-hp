@@ -7,6 +7,8 @@ const translations = {
     nav_faq:      "よくある質問",
     nav_contact:  "お問い合わせ",
     nav_menu_contact: "予約・お問い合わせ",
+    nav_blog:     "コラム",
+    nav_school:   "スクール",
 
     // HERO
     hero_desc: "マレー式伝統ケアで心と身体を整える。<br>シンガポール在住の日本人ママへ、ご自宅に出張いたします。",
@@ -160,6 +162,8 @@ const translations = {
     nav_faq:      "FAQ",
     nav_contact:  "Contact",
     nav_menu_contact: "Contact",
+    nav_blog:     "Blog",
+    nav_school:   "School",
 
     // HERO
     hero_desc: "Healing mothers through Malay traditional care.<br>Home visits across Singapore, in Japanese.",
