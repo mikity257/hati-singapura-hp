@@ -125,6 +125,7 @@ const translations = {
     // CONTACT
     contact_title: "まずはお気軽に<br>ご連絡ください",
     contact_desc:  "初めてのご利用でも大丈夫です。ご質問やご不安なことがあれば、何でもお気軽にお問い合わせください。日本語でお答えします。",
+    contact_area:  "シンガポール島内全域（出張対応）",
 
     // FOOTER
     footer_desc:          "マレー伝統の産後ケアで、回復の時間を大切に。",
@@ -259,6 +260,7 @@ const translations = {
     // CONTACT
     contact_title: "We'd love to<br>hear from you",
     contact_desc:  "First-timers are very welcome. Whether you have questions or just want to chat, reach out anytime — we respond in Japanese and English.",
+    contact_area:  "Serving all of Singapore (house calls available)",
 
     // FOOTER
     footer_desc:          "HATI Malay postnatal care by Japanese therapist Miki Makiura. Singapore's No.1 — here for you, in Japanese.",
