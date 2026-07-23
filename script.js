@@ -144,6 +144,8 @@ const translations = {
     about_title: "Ancient wisdom,<br>for modern mothers",
     about_p1: "\"Hati\" means heart and soul in Malay. HATI SINGAPURA was born so that Japanese mothers in Singapore can spend their precious postnatal recovery with confidence and peace of mind.",
     about_p2: "Urut Melayu (traditional massage), Bengkung (abdominal binding), and Jamu (herbal drinks) — time-honoured Malay postnatal wisdom, delivered to your home in Japanese.",
+    about_p3: "At HATI SINGAPURA, we focus on care that delivers results you can truly feel — not just temporary relaxation. We gently support your mind and body through the emotional ups and downs unique to the postnatal period.",
+    about_p4: "Little by little, your whole body — not just your abdomen — begins to realign and regain its natural lightness. We walk alongside you throughout that process, savouring each change together.",
 
     // SERVICES
     services_sub:   "OUR SERVICES",
