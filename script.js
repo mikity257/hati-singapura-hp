@@ -156,8 +156,8 @@ const translations = {
     about_p4: "Little by little, your whole body — not just your abdomen — begins to realign and regain its natural lightness. We walk alongside you throughout that process, savouring each change together.",
     stat1_label: "Treatments Performed",
     stat2_label: "Japanese Therapists",
-    stat3_num:   "&nbsp;",
-    stat3_label: "Booked 6 Months Ahead",
+    stat3_num:   "6 Months",
+    stat3_label: "Advance Booking",
 
     // SERVICES
     services_sub:   "OUR SERVICES",
