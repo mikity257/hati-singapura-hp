@@ -272,7 +272,7 @@ const translations = {
 
     faq_q7: "Do you offer services in Japan?",
     faq_a7: "For those wishing to receive care in Japan, we can introduce a HATI-certified therapist. Please feel free to contact us.",
-    faq_q8: "What is Urut Melayu?",
+    faq_q8: "What is Malay traditional care?",
     faq_a8: "Urut Melayu is a traditional postnatal massage that has been passed down in Malaysia and Singapore for generations. It relaxes the whole body and supports postnatal recovery and circulation.",
     faq_q9: "What is Bengkung?",
     faq_a9: "Bengkung is a traditional abdominal binding technique using cloth. It aims to firm the pelvis and stomach and help reposition internal organs after birth.",
