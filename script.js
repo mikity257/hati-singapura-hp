@@ -68,6 +68,10 @@ const translations = {
     flow_last_label:"■ 最終日",
     flow_last_note: "全身オイルマッサージのみ → ビフォーアフター確認",
 
+    // BEFORE / AFTER
+    ba_instagram_text: "詳しい施術の様子やご感想は、Instagramハイライトで公開しています",
+    ba_instagram_btn:  "Instagramで見る",
+
     // CONTACT CTA (before voices)
     cta_btn_desc: "空き状況の確認や料金に関するご質問など、<br>お気軽にお問い合わせください。",
     cta_btn_text: "ご予約・お問い合わせは<br class=\"sp-only\">こちら",
@@ -212,6 +216,10 @@ const translations = {
     flow_d2_note:   "Before your therapist arrives, please remove your sarashi, shower, and finish nursing or pumping. → Full-body oil massage + abdominal binding",
     flow_last_label:"■ Final day",
     flow_last_note: "Full-body oil massage only → Measurements & before/after check",
+
+    // BEFORE / AFTER
+    ba_instagram_text: "Follow our Instagram highlights for more photos and reviews from real clients",
+    ba_instagram_btn:  "View on Instagram",
 
     // CONTACT CTA (before voices)
     cta_btn_desc: "For questions about availability or pricing, feel free to reach out anytime.",
