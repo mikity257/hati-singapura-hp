@@ -769,6 +769,16 @@ section { padding: 7rem 0; }
   font-size: 0.82rem; color: var(--text-light);
   text-align: center; letter-spacing: 0.06em;
 }
+.ba-instagram {
+  text-align: center;
+  margin-top: 2.8rem;
+}
+.ba-instagram p {
+  font-size: 0.85rem;
+  color: var(--text-light);
+  letter-spacing: 0.03em;
+  margin-bottom: 1.3rem;
+}
 
 /* ===== FAQ ===== */
 .faq { background: white; }
@@ -1337,7 +1347,8 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   align-items: center;
   gap: 1em;
 }
-.school-cta-btn {
+.school-cta-btn,
+.ba-instagram-btn {
   display: inline-block;
   width: auto;
   margin-top: 1em;
@@ -1350,7 +1361,9 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   border-radius: 2px;
   transition: opacity 0.3s;
 }
-.school-cta-btn:hover { opacity: 0.85; }
+.school-cta-btn:hover,
+.ba-instagram-btn:hover { opacity: 0.85; }
+.ba-instagram-btn { margin-top: 0; }
 @media (max-width: 767px) {
   .school-cta-btn {
     display: block;
