@@ -753,6 +753,9 @@ a { text-decoration: none; color: inherit; }
   grid-template-columns: 3fr 2fr;
   gap: 4rem;
   align-items: center;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .about-header {
   text-align: center;
@@ -761,9 +764,9 @@ a { text-decoration: none; color: inherit; }
 .about-card {
   background: #ffffff;
   border-radius: 1.2rem;
-  border: none;
-  outline: none;
-  box-shadow: none;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
   padding: 3.5rem;
 }
 .about-title {
@@ -800,17 +803,21 @@ a { text-decoration: none; color: inherit; }
   display: flex;
   justify-content: center;
   align-items: center;
-  border: none;
-  outline: none;
-  box-shadow: none;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-right: 0 !important;
 }
 .about-logo-inner {
   width: 340px; height: 340px;
   background: url('logo.png') center / contain no-repeat;
   background-color: #ffffff;
-  border: none;
-  outline: none;
-  box-shadow: none;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .about-logo-inner:not([style]) .about-logo-text,
 .about-logo-inner .about-logo-text {
