@@ -875,7 +875,7 @@ a { text-decoration: none; color: inherit; }
   padding: 0 0 4rem;
 }
 .line-cta-outer--white { background-color: #ffffff; }
-.cta-notice-wrap { text-align: center; margin-top: 3em; }
+.cta-notice-wrap { text-align: center; padding-top: 3em; }
 .cta-notice {
   font-weight: bold;
   font-size: 1rem;
