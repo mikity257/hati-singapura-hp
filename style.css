@@ -1387,6 +1387,14 @@ body.no-hero .navbar:not(.scrolled) .hamburger span  { background: var(--dark); 
   }
 }
 
+@media (min-width: 768px) {
+  .article-nav {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
 .article-related { background: var(--cream); padding: 3.5rem 2rem 4rem; }
 .article-related-inner { max-width: 640px; margin: 0 auto; }
 .article-related h3 {
