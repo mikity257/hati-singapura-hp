@@ -882,6 +882,7 @@ a { text-decoration: none; color: inherit; }
   color: #3a2a1a;
   text-align: center;
   display: block;
+  margin-bottom: 1.5em;
 }
 .cta-notice-sub {
   text-align: center;
