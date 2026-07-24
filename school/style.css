@@ -875,15 +875,13 @@ a { text-decoration: none; color: inherit; }
   padding: 0 0 4rem;
 }
 .line-cta-outer--white { background-color: #ffffff; }
-.cta-notice-wrap { text-align: center; }
+.cta-notice-wrap { text-align: center; margin-top: 3em; }
 .cta-notice {
-  display: inline-block;
-  border: 2px solid #d4a843;
-  background-color: #f5c842;
+  font-weight: bold;
+  font-size: 1rem;
   color: #3a2a1a;
-  padding: 0.5em 1.5em;
-  font-size: 0.95rem;
-  margin-bottom: 1em;
+  text-align: center;
+  display: block;
 }
 .cta-notice-sub {
   text-align: center;
