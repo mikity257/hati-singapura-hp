@@ -308,8 +308,19 @@ a { text-decoration: none; color: inherit; }
   max-width: 640px; margin-left: auto; margin-right: auto;
   text-align: center;
 }
+.contact-intro-highlight-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+}
 .contact-intro-highlight {
   font-size: 1.3rem;
+}
+.deco-slash {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: var(--gold);
+  line-height: 1;
 }
 .contact-cards {
   display: grid;
