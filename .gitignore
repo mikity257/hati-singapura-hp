@@ -4,3 +4,7 @@
 !.dev.vars.example
 .env*
 !.env.example
+
+# miki-ai build output / deps
+miki-ai/node_modules
+miki-ai/dist

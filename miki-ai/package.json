@@ -1,0 +1,16 @@
+{
+  "name": "miki-ai",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pages:dev": "wrangler pages dev dist --kv MIKI_AI_SESSIONS"
+  },
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "wrangler": "^3.90.0"
+  }
+}

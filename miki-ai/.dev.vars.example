@@ -1,0 +1,6 @@
+# ローカルで `npm run pages:dev` を使う場合、このファイルを `.dev.vars` としてコピーし、
+# 実際の値を入れてください（.dev.vars はGit管理外です）。
+ANTHROPIC_API_KEY=sk-ant-xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LINE_CHANNEL_ACCESS_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LINE_CHANNEL_SECRET=xxxxxxxxxxxxxxxxxxxxxxxxxxxx
+LINE_OFFICIAL_ACCOUNT_URL=https://line.me/R/ti/p/@xxxxxxx
