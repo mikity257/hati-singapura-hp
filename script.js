@@ -97,6 +97,9 @@ const translations = {
     voice4_text: "5日間の産褥マッサージを経て、見事5キロ近く減りました！妊娠中に13キロ太ってしまった私…旦那さんが育休中に自宅で施術を受けて体型を戻せるのであれば、こんなに嬉しい事はない。本当にありがとうございました。",
     voice4_name: "N.O. さん",
     voice4_meta: "5日間産褥ケアご利用",
+    voice5_text: "7日間ありがとうございました！<br>実際に自分でもとても実感していますが、数値や写真で見てもかなりの違いにびっくりです🥳<br>心も体もとてもリラックスでき、施術後は胸の調子も驚くほど良くなっていて感激しました🥹💗<br>おっぱいの詰まりを防げて良かったです🙌<br><br>産後のこの時期に美希さんにお願いできて、本当に良かったと感じています🌿<br>またぜひお願いしたいです🙏",
+    voice5_name: "E.Y. さん",
+    voice5_meta: "7日間産褥ケアご利用",
 
     // FAQ
     faq_title: "よくあるご質問",
@@ -252,6 +255,9 @@ const translations = {
     voice4_text: "After 5 days of postpartum massage, I lost almost 5kg! I had gained 13kg during pregnancy... being able to get treatment at home while my husband was on paternity leave, and getting my body back — nothing could make me happier. Thank you so much.",
     voice4_name: "N.O.",
     voice4_meta: "5-Day Postpartum Care",
+    voice5_text: "Thank you so much for the 7 days of care!<br>I can really feel the difference myself, and I was amazed to see it in the numbers and photos too 🥳<br>Both my mind and body felt so relaxed, and I was thrilled that my breast condition improved so much after the treatment 🥹💗<br>I'm so glad it helped prevent clogged milk ducts 🙌<br><br>I'm so grateful I could have Miki's care during this postpartum time 🌿<br>I'd love to have her again 🙏",
+    voice5_name: "E.Y.",
+    voice5_meta: "7-Day Postpartum Care",
 
     // FAQ
     faq_title: "Frequently Asked Questions",
