@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>施術マニュアル動画 | HATIスクール</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/members/members.css" />
+</head>
+<body>
+  <header class="members-header">
+    <h1 class="members-logo">HATI <span>School</span></h1>
+    <div class="members-header-right">
+      <span id="welcomeText" class="members-welcome"></span>
+      <a id="adminLink" href="/members/admin/" class="members-link" hidden>管理画面</a>
+      <button id="logoutBtn" class="members-link-btn">ログアウト</button>
+    </div>
+  </header>
+
+  <main class="members-main">
+    <h2 class="members-page-title">施術マニュアル動画</h2>
+    <p class="members-page-desc">受講生専用の技術マニュアル動画です。社外への共有・転載はご遠慮ください。</p>
+    <div id="videoGrid" class="video-grid"></div>
+  </main>
+
+  <div id="playerModal" class="player-modal" hidden>
+    <div class="player-modal-inner">
+      <button id="closePlayer" class="player-close" aria-label="閉じる">&times;</button>
+      <h3 id="playerTitle"></h3>
+      <div class="player-frame-wrap" id="playerFrameWrap"></div>
+    </div>
+  </div>
+
+  <script src="/members/videos/videos.js"></script>
+</body>
+</html>

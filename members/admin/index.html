@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>管理画面 | HATIスクール</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;1,400&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/members/members.css" />
+</head>
+<body>
+  <header class="members-header">
+    <h1 class="members-logo">HATI <span>School</span></h1>
+    <div class="members-header-right">
+      <a href="/members/videos/" class="members-link">動画ページへ</a>
+      <button id="logoutBtn" class="members-link-btn">ログアウト</button>
+    </div>
+  </header>
+
+  <main class="members-main">
+    <h2 class="members-page-title">管理画面</h2>
+
+    <section class="admin-section">
+      <h3>受講生アカウント</h3>
+      <table class="admin-table" id="studentsTable">
+        <thead><tr><th>ユーザー名</th><th>表示名</th><th>権限</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+
+      <form id="addStudentForm" class="admin-form">
+        <h4>新しい受講生を追加</h4>
+        <label>ユーザー名
+          <input type="text" name="username" required pattern="[a-z0-9_.\-]{3,32}" placeholder="例: yamada" />
+        </label>
+        <label>表示名
+          <input type="text" name="displayName" required placeholder="例: 山田 花子" />
+        </label>
+        <label>パスワード
+          <input type="text" name="password" required minlength="8" placeholder="8文字以上" />
+        </label>
+        <label>権限
+          <select name="role">
+            <option value="student" selected>受講生</option>
+            <option value="admin">管理者</option>
+          </select>
+        </label>
+        <p id="studentFormError" class="members-error" hidden></p>
+        <button type="submit" class="members-btn">追加</button>
+      </form>
+    </section>
+
+    <section class="admin-section">
+      <h3>動画一覧</h3>
+      <table class="admin-table" id="videosTable">
+        <thead><tr><th>タイトル</th><th>Stream UID</th><th>並び順</th><th></th></tr></thead>
+        <tbody></tbody>
+      </table>
+
+      <form id="addVideoForm" class="admin-form">
+        <h4>新しい動画を追加</h4>
+        <label>タイトル
+          <input type="text" name="title" required placeholder="例: お腹" />
+        </label>
+        <label>説明(任意)
+          <input type="text" name="description" placeholder="任意の説明文" />
+        </label>
+        <label>Stream UID
+          <input type="text" name="streamUid" required placeholder="Cloudflare Streamの動画UID" />
+        </label>
+        <p id="videoFormError" class="members-error" hidden></p>
+        <button type="submit" class="members-btn">追加</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="/members/admin/admin.js"></script>
+</body>
+</html>
